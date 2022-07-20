@@ -1,3 +1,19 @@
+################MAIN_CODE#########################################################################
+
+import kivy
+
+from kivy.app import App
+from kivy.uix.button import Button
+
+class MyApp(App):
+    def build(self):
+        return Button(text='Стас йобана попрошайка, сука, чмирь.')
+if __name__ == '__main__':
+    MyApp().run()
+
+
+
+#################LOG##############################################################################
 (venv) amd@amd-Legion-Y540-15IRH:~/PycharmProjects/pythonProject1$ buildozer android debug deploy run
 # Check configuration tokens
 # Ensure build layout
